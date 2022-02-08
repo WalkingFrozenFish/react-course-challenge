@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.modalWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(58, 58, 58, 0.568);
+    top: 0;
+    left: 0;
+    
+}
+
+.modalWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 500px;
+    min-height: 150px;
+    background-color: rgb(238, 238, 238);
+}
+
+.modalTitle {
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(92, 202, 28);
+}
+
+.modalTitle h2 {
+    color: #fff;
+}
+
+.errorMessage {
+    padding: 20px;
+}
+
+.closeButton button {
+    width: 100%;
+    padding: 10px 15px;
+    margin: auto;
+    border: none;
+    background-color: rgb(92, 202, 28);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closeButton button:hover {
+    background-color: rgb(76, 161, 27);
+    transition: 0.3s;
+}
